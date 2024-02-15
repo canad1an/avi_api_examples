@@ -1,11 +1,11 @@
-## Login to Avi controller 
+## Login to Avi controller and Get list of Pools
 ### Authorization header is a base64 encode of "admin:password123"
 curl --request GET \
   --url https://CONTROLLERIP/api/pool \
   --header 'Authorization: Basic YWRtaW46cGFzc3dvcmQxMjM='
 
 
-## Post to create a pool 
+## Login to Avi controller and create a pool 
 ### Authorization header is a base64 encode of "admin:password123"
   curl --request GET \
   --url https://CONTROLLERIP/api/pool \
